@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout="@+id/W"
+    android:layout_height="wrap_content"
+    android:hint="|W|=0"
+    app:errorEnabled="true"
+    app:endIconMode="clear_text"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cadena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</com.google.android.material.textfield.TextInputLayout>
